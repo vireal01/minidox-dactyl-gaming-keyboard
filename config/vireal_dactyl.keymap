@@ -25,15 +25,15 @@
             //                              |    LCTRL | MO lay 1| SPACE   |                   | ENTER   | Lower | BSPC
 
             bindings = <
-&kp ESC         &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4    &kp N5
 
-&kp Q             &kp W  &kp E           &kp R           &kp T                 &kp Y  &kp U            &kp I            &kp O     &kp P
+&kp Q             &kp W         &kp E           &kp R           &kp T                 &kp Y  &kp U            &kp I            &kp O     &kp P
 
-&mt LEFT_SHIFT A  &kp S  &mt LEFT_WIN D  &mt LEFT_ALT F  &kp G                 &kp H  &mt RIGHT_ALT J  &mt RIGHT_WIN K  &kp L     &mt RIGHT_SHIFT SEMICOLON
+&mt LEFT_SHIFT A  &kp S         &mt LEFT_WIN D  &mt LEFT_ALT F  &kp G                 &kp H  &mt RIGHT_ALT J  &mt RIGHT_WIN K  &kp L     &mt RIGHT_SHIFT SEMICOLON
 
-&kp Z             &kp X  &kp C           &kp V           &kp B                 &kp N  &kp M            &kp COMMA        &kp DOT   &kp FSLH
+&kp Z             &kp X         &kp C           &kp V           &kp B                 &kp N  &kp M            &kp COMMA        &kp DOT   &kp FSLH
 
-                                         &kp LCTRL       &mo RAISE  &kp SPACE         &kp ENTER        &mo LOWER        &kp BSPC
+                                                &kp LCTRL       &mo RAISE  &kp SPACE         &kp ENTER        &mo LOWER        &kp BSPC
             >;
         };
 
@@ -46,7 +46,7 @@
             //                              |    LCTRL | MO lay 1| SPACE   |                   | ENTER   | Lower | BSPC
 
             bindings = <
-&kp ESC         &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4
+&kp ESC         &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3          &kp NUMBER_4
 
 &kp ESC         &kp NUMBER_2     &kp NUMBER_3    &kp NUMBER_4          &kp N5                 &kp LS(CARET)  &kp LS(AMPS)    &kp LS(STAR)    &kp LS(LPAR)     &kp MINUS
 
@@ -67,7 +67,7 @@
             //                               |    LCTRL | MO lay 1| SPACE  |                   | ENTER   | Lower | BSPC
 
             bindings = <
-&kp ESC         &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4
+&kp ESC          &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4
 
 &kp EXCLAMATION  &kp LS(AT_SIGN)   &kp HASH          &kp DOLLAR         &kp PERCENT               &kp CARET    &kp AMPS      &kp ASTERISK  &trans     &kp UNDER
 
@@ -88,29 +88,29 @@
             //                               |    LCTRL | MO lay 1| SPACE  |                   | ENTER   | Lower | BSPC
 
             bindings = <
-&kp ESC         &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4
+&kp ESC        &kp NUMBER_1                       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
 
-&kp C_BRI_DEC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans     &bt BT_CLR  &kp LBKT              &kp K_VOLUME_UP    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &bt BT_NXT
+&kp C_BRI_DEC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans        &bt BT_CLR    &kp LBKT                 &kp K_VOLUME_UP    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &bt BT_NXT
 
-&kp HOME       &kp PG_UP                          &kp PG_DN  &kp END     &kp LPAR              &kp K_VOLUME_DOWN  &kp KP_NUMBER_4  &kp N5           &kp N6           &bt BT_PRV
+&kp HOME       &kp PG_UP                          &kp PG_DN     &kp END       &kp LPAR                 &kp K_VOLUME_DOWN  &kp KP_NUMBER_4  &kp N5           &kp N6           &bt BT_PRV
 
-&trans         &trans                             &trans     &trans      &kp F6                &kp KP_NUMBER_0    &kp N1           &kp N2           &kp N3           &kp PIPE
+&trans         &trans                             &trans        &trans        &kp F6                   &kp KP_NUMBER_0    &kp N1           &kp N2           &kp N3           &kp PIPE
 
-                                                             &kp LCTRL   &mo RAISE  &kp SPACE                     &kp ENTER        &kp 1            &kp BSPC
+                                                                &kp LCTRL     &mo RAISE     &kp SPACE                     &kp ENTER        &kp 1            &kp BSPC
             >;
         };
 
         gaming {
             bindings = <
-&kp ESC         &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4
+&kp ESC    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
 
-&kp TAB    &kp Q  &kp W  &kp E      &kp R             &kp Y  &kp U    &kp I      &kp O     &kp P
+&kp TAB    &kp Q         &kp W         &kp E         &kp R                    &kp Y  &kp U    &kp I      &kp O     &kp P
 
-&kp LSHFT  &kp A  &kp S  &kp D      &kp F             &kp H  &kp J    &kp K      &kp L     &tog 0
+&kp LSHFT  &kp A         &kp S         &kp D         &kp F                    &kp H  &kp J    &kp K      &kp L     &tog 0
 
-&kp LCTRL  &kp Z  &kp X  &kp C      &kp V             &kp N  &kp M    &kp COMMA  &kp DOT   &tog 4
+&kp LCTRL  &kp Z         &kp X         &kp C         &kp V                    &kp N  &kp M    &kp COMMA  &kp DOT   &tog 4
 
-                         &kp LCTRL  &kp G  &kp SPACE         &kp RET  &kp ESC    &kp BSPC
+                                       &kp T         &kp G         &kp SPACE         &kp RET  &kp ESC    &kp BSPC
             >;
         };
     };
