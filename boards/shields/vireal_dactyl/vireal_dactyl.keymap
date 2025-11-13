@@ -23,7 +23,8 @@
 // |  LCTRL  |    Z    |    X    |    C    |    V    |    B    |                   |    N    |    M    |    ,    |    .    |    /    |
 //                              |    LCTRL | MO lay 1| SPACE   |                   | ENTER   | Lower | BSPC
             bindings = <
-&kp Q      &kp W     &kp E      &kp R      &kp T                           &kp Y      &kp U      &kp I      &kp O      &kp P        
+&trans     &trans    &trans     &trans     &kp LBKT
+&kp Q      &kp W     &kp E      &kp R      &kp T                           &kp Y      &kp U      &kp I      &kp O      &kp P
 &kp A      &kp S     &kp D      &kp F      &kp G                           &kp H      &kp J      &kp K      &kp L      &kp L 
 &kp Z      &kp X     &kp C      &kp V      &kp B                           &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH     
                                 &kp LCTRL  &mo RAISE  &kp SPACE                       &kp ENTER  &mo LOWER  &kp BSPC 
@@ -38,6 +39,7 @@
 // |  lctrl  |    z    |    x    |    c    |    v    |    b    |                   |    n    |    m    |    ,    |    .    |    /    |
 //                              |    LCTRL | MO lay 1| SPACE   |                   | ENTER   | Lower | BSPC
             bindings = <
+&trans     &trans    &trans     &trans     &kp LBKT
 &trans     &trans    &trans     &trans     &kp LBKT                        &kp RBKT      &kp 7      &kp 8      &kp 9      &trans
 &kp HOME   &kp PG_UP &kp PG_DN  &kp END    &kp LPAR                        &kp RPAR      &kp 4      &kp 5      &kp 6      &kp MINUS
 &trans     &trans    &trans     &trans     &kp F6                          &bootloader   &kp 1      &kp 2      &kp 3      &kp FSLH
@@ -53,6 +55,7 @@
 // |  lctrl  |    z    |    x    |    c    |    v    |    b    |                   |    n    |    m    |    ,    |    .    |    /    |
 //                               |    LCTRL | MO lay 1| SPACE  |                   | ENTER   | Lower | BSPC
             bindings = <
+&trans     &trans    &trans     &trans     &kp LBKT
 &trans    &trans     &trans     &trans     &kp LBKT     &kp RBKT     &kp 7  &kp 8     &kp 9  &trans
 &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp LPAR     &kp LEFT    &kp UP      &kp DOWN    &kp RIGHT  &kp SEMI
 &trans    &trans     &trans     &trans     &kp F6       &kp K_PP    &mo 3       &kp LGUI    &kp LGUI   &kp FSLH
@@ -69,6 +72,8 @@
             //                               |    LCTRL | MO lay 1| SPACE  |                   | ENTER   | Lower | BSPC
 
             bindings = <
+&trans     &trans    &trans     &trans     &kp LBKT
+
 &trans    &trans     &trans     &trans     &kp LBKT     &kp RBKT     &kp 7  &kp 8     &kp 9  &trans
 
 &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp LPAR     &kp RPAR     &kp 4  &kp 5     &kp 6  &kp MINUS
@@ -82,6 +87,8 @@
 
         gaming {
             bindings = <
+&trans     &trans    &trans     &trans     &kp LBKT
+
 &kp TAB       &kp Q  &kp W      &kp E      &kp R        &kp Y    &kp U    &kp I      &kp O    &kp P
 
 &kp LSHFT     &kp A  &kp S      &kp D      &kp F        &kp H    &kp J    &kp K      &kp L    &tog 0
